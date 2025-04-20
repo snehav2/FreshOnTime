@@ -47,7 +47,7 @@ export const AppContextProvider=({children})=>{
                                 delete cartData[itemId];
                         }
                 }
-                toast.succcess("Remove from Cart")
+                toast.success("Remove from Cart")
                 setCartItems(cartData)
         }
         //Get Cart Item Count
